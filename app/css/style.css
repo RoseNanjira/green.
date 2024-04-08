@@ -1,0 +1,361 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+  --main-color: #0fbf61;
+  --main-white: #fff;
+  --black: #000;
+  --padding:10px 20px ;
+
+}
+.text2{
+  position: relative;
+  left: 800px;
+}
+
+header{
+  height: 100%;
+  width: 70%;
+}
+
+header nav{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+header nav div ul{
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  list-style: none;
+
+}
+ .btn-pri{
+  padding: var(--padding);
+  border: none;
+  outline: none;
+  background-color: var(--main-white);
+  color: var(--main-color);
+  border-radius: 5px;
+  font-size: 1rem;
+  border: 1px solid var(--black);
+}
+.folio{
+  background-color: var(--main-color);
+  color: var(--main-white);
+
+}
+.hero{
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 2fr 3fr;
+
+}
+.twitter{
+  background-color: var(--main-color);
+  border-radius: 10px;
+  width: 2rem;
+  height: 1.5rem;
+  padding: 5px;
+}
+.welcome{
+  background-color: #dfd;
+  color: var(--main-color);
+  height: 2rem;
+  width: 8rem;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.web{
+  margin-bottom: 18px;
+}
+
+.hire{
+  padding: var(--padding);
+  border: none;
+  outline: none;
+  background-color: var(--main-color);
+  color: var(--main-white);
+  border-radius: 5px;
+  font-size: 1rem;
+  border: 1px solid var(--black);
+  margin-right: 1rem;
+
+}
+.hero .image-side{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--main-color);
+  border-radius: 200px 200px;
+  transform: rotate(140deg);
+  position: relative;
+  bottom: 130px;
+  left: 130px;
+  height: 25rem;
+  width: 50rem;
+
+}
+
+.hero .image-side .circle{
+  display: flex;
+  height: 17rem;
+  width: 17rem;
+  background-color: var(--main-white);
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transform: rotate(-140deg);
+  position: relative;
+  left: 200px;
+  top: 60px;
+  border: var(--main-white);
+
+
+}
+.hero .image-side .circle img{
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+  border-radius: 50%;
+  border: var(--main-white) solid 20px;
+  
+
+  .about me{
+    background-color: var(--main-color);
+  }
+
+  .circle{
+    height: 150px;
+    width: 150px;
+    border: solid 20px var(--main-color);
+    border-radius: 50%;
+    display:inline-block;
+    position: relative;right:-4vh;bottom: 15px;
+    z-index: 400;
+    background-color: var(--main-color);
+  }
+
+
+.text2{
+     background-color: var(--main-color);
+}
+
+
+.text2{
+ text-align: center;
+ left: 200px;
+ position: relative;
+ top: 350px;
+ background-color: var(--main-color);
+}
+
+.p{
+  text-align: center;
+}
+
+}
+
+.girls{
+  position:relative;
+  left: 200px;
+  z-index: -1;
+  bottom: 100px;
+}
+
+.par{
+  position: relative;
+  left: 210px;
+  top: 200px;
+}
+
+.text3{
+  position: relative;
+  left: 500px;
+  top: 100px;
+}
+
+.download{
+  position: relative;
+  left: 500px;
+  top: 70px;
+  background-color: var(--main-color);
+  color: var(--main-white);
+  padding: 5%;
+}
+
+.class2{
+  position: relative;
+  left: 800px;
+  background-color: #dfd;
+  color: #0fbf61;
+  height: 24px;
+  width: 76px;
+}
+
+.percentage{
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+
+}
+.pre{
+  border-radius: 50%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: 
+  radial-gradient(closest-side, rgb(252, 250, 250) 94%,transparent 80% 100%),
+  conic-gradient(#0fbf61 50%, rgb(252, 251, 251) 0);
+  height: 200px;
+  width: 200px;
+
+}
+
+
+.pre2{
+  border-radius: 50%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: 
+  radial-gradient(closest-side, rgb(252, 250, 250) 94%,transparent 80% 100%),
+  conic-gradient(#0fbf61 75%, rgb(252, 251, 251) 0);
+  height: 200px;
+  width: 200px;
+
+}
+.pre3{
+  border-radius: 50%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: 
+  radial-gradient(closest-side, rgb(252, 250, 250) 94%,transparent 80% 100%),
+  conic-gradient(#0fbf61 20%, rgb(252, 251, 251) 0);
+  height: 200px;
+  width: 200px;
+
+}
+.pre4{
+  border-radius: 50%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: 
+  radial-gradient(closest-side, rgb(252, 250, 250) 94%,transparent 80% 100%),
+  conic-gradient(#0fbf61 50%, rgb(252, 251, 251) 0);
+  height: 200px;
+  width: 200px;
+
+}
+
+.fifty{
+  position: relative;
+  top: 50px;
+
+}
+.webdeveloper{
+  position: relative;
+  top: 50px;
+}
+.seventy{
+  position: relative;
+  top: 50px;
+}
+
+.development{
+  position: relative;
+  top: 50px;
+}
+.twenty{
+  position: relative;
+  top: 50px;
+}
+.we{
+  position: relative;
+  top: 50px;
+}
+.five{
+  position: relative;
+  top: 50px;
+}
+
+.w{
+  position: relative;
+  top: 50px;
+}
+.services{
+  position: relative;
+  background-color: rgb(183, 247, 187);
+  color: #0fbf61;
+  height: 40px;
+  width: 240px;
+  margin: 10px 580px;
+  padding: 10px 30px ;
+}
+.Features{
+  text-align: center;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  margin-left: 250px;
+
+}
+.one{
+  background-color: var(rgb(183, 247, 187));
+  height: 350x;
+  width: 300px;
+  padding: 40px 40px;
+}
+
+.middle{
+  background-color: var(--main-color);
+  height: 350x;
+  width: 300px;
+  padding: 40px 40px;
+}
+.two{
+  background-color: var(--main-white);
+  height: 350x;
+  width: 300px;
+  padding: 40px 40px;
+}
+
+.more1{
+  position: relative;
+  top: 70px;
+  background-color: var(--main-color);
+  color: var(--main-white);
+  padding: 5%;
+  margin: 3%;
+}
+
+.more2{
+  position: relative;
+  top: 70px;
+  background-color:var(--main-white);
+  color:var(--black);
+  padding: 3%;
+  margin: 2%;
+}
+
+.more3{
+  position: relative;
+  top: 70px;
+  background-color: var(--main-color);
+  color: var(--main-white);
+  padding: 3%;
+  margin: 2%;
+}
+
